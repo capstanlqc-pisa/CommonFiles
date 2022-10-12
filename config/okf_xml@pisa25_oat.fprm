@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<its:rules xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsx="http://www.w3.org/2008/12/its-extensions" xmlns:okp="okapi-framework:xmlfilter-options" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0">
+  <okp:options escapeGT="yes" escapeQuotes="no" lineBreakAsCode="no"/>
+  <!-- See ITS specification at: http://www.w3.org/TR/its/ -->
+
+  <its:translateRule itsx:whiteSpaces="preserve" selector="//text" translate="yes"/>
+  <its:translateRule selector="//key" translate="no"/>
+  <its:translateRule itsx:idValue="parent::label/@key" itsx:whiteSpaces="preserve" selector="//text" translate="yes"/>
+  <its:withinTextRule selector="//img|//b|//i|//u|//span|//strong" withinText="yes"/>
+
+  <okp:codeFinder useCodeFinder="yes">#v1
+    count.i=1
+    rule0=\{\{[\w:]+\}\}
+  </okp:codeFinder>
+
+</its:rules>
