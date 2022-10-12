@@ -190,6 +190,9 @@
     </filter>
     <filter className="net.sf.okapi.lib.omegat.XMLFilter" enabled="true">
         <files sourceFilenameMask="*.xml" targetFilenamePattern="${filename}"/>
+        <option name="includeTUName" value="yes"/>
+        <option name="useCustom" value="okf_xml@pisa25.fprm"/>
+        <option name="useDefault" value="no"/>
     </filter>
     <filter className="net.sf.okapi.lib.omegat.TSFilter" enabled="true">
         <files sourceFilenameMask="*.ts" targetFilenamePattern="${filename}"/>
