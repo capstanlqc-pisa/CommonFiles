@@ -6,7 +6,7 @@
   <its:translateRule itsx:whiteSpaces="preserve" selector="//text" translate="yes"/>
   <its:translateRule selector="//key" translate="no"/>
   <its:translateRule itsx:idValue="parent::label/@key" itsx:whiteSpaces="preserve" selector="//text" translate="yes"/>
-  <its:withinTextRule selector="//img|//b|//i|//u|//span|//strong" withinText="yes"/>
+  <its:withinTextRule selector="//img|//b|//i|//u|//span|//em|//strong" withinText="yes"/>
 
   <okp:codeFinder useCodeFinder="yes">#v1
     count.i=1
