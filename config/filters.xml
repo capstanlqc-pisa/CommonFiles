@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <filters removeTags="true" removeSpacesNonseg="true" preserveSpaces="true" ignoreFileContext="false">
-    <filter className="org.omegat.filters3.xml.xliff.XLIFFFilter" enabled="true">
+    <filter className="org.omegat.filters3.xml.xliff.XLIFFFilter" enabled="false">
         <files sourceFilenameMask="*.xlf" targetFilenamePattern="${filename}"/>
         <files sourceFilenameMask="*.xliff" targetFilenamePattern="${filename}"/>
         <files sourceFilenameMask="*.sdlxliff" targetFilenamePattern="${filename}"/>
