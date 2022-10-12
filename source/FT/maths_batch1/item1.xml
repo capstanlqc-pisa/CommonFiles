@@ -9,11 +9,18 @@
       <text>Are you interested in videogames?</text>
     </label>
   </question>
-  <prompt>
-    <label key="unit1_prom_01">
-      <text>Please select one response.</text>
-    </label>
-  </prompt>
+  <prompts>
+    <prompt>
+      <label key="unit1_prom_01">
+        <text>Please select one response.</text>
+      </label>
+    </prompt>
+    <prompt>
+      <label key="unit1_prom_02">
+        <text>There are no <em>right</em> answers.</text>
+      </label>
+    </prompt>
+  </prompts>
   <responses>
     <response>
       <label key="unit1_resp_01">
