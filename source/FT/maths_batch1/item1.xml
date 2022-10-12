@@ -46,6 +46,6 @@
       <label key="unit1_instr_02">
         <text>Click here to continue.</text>
       </label>
-    <navigation>
+    </navigation>
   </instructions>
 </file>
