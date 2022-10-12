@@ -3,7 +3,7 @@
     <label key="unit1_subj_01">
       <text>Welcome to this survey!</text>
     </label>
-  <subject>
+  </subject>
   <question>
     <label key="unit1_ques_01">
       <text>Are you interested in videogames?</text>
