@@ -1,4 +1,9 @@
 <file xmlns:its="http://www.w3.org/2005/11/its">
+  <repeated>
+    <label key="repeated">
+      <text>foo</text>
+    </label>
+  </repeated>
   <subject>
     <label key="unit1_subj_01">
       <text>Welcome to this survey!</text>
